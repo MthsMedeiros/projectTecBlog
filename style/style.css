@@ -1,31 +1,122 @@
 body{
     padding: 0px;
     margin: 0px;
+    background: rgb(243, 240, 214);
 }
 
 #divPrincipal{
-    
+   
 }
 
+#divConteudo{
+    clear: both;
+}
 #spTec{
+    color: #2b292b;
+    margin-right: 0px;
+    padding-right: 0px;
+    /*border: 1px solid red;*/
+}
 
-    font-size: 30px;;
-    color: #5f501b;
+#spBlg{
+    
+    color: white;
+    margin-left:  0px;
+    padding-left: 0px;
+}
+
+#pPostagemRecente{
+    background: #c4c4bf;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 13px ;
+    margin-right: 13px ; */
+    
+}
+.divPostagemRecente{
+    background: #fffff3;
+    padding: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 15px;
+}
+
+.titleHead{
+    font-size: 70px;
+    text-align: center ;
     margin: 0px; 
     padding: 0px;
 
+   /* position: relative;
+    top: 70px;*/
+    float: inline-end;
+    
+   
 }
-#spBlog{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
+
 .divBanner{
-    align-items: center ;
+    padding-top: 70px;
+    
 }
 
 .divHead{
     width: 100%;
+    height: 250px;
     background: #ffc300;
 
+}
+
+.divMenu{
+    margin-top: 50px;
+    clear: both;
+    text-align: center;
+}
+.linksMenu{
+    font-size: 20px;
+    margin : 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+a.linksMenu:link,a.linksMenu:visited{
+   
+    color: white;
+}
+
+a.linksMenu:hover,a.linksMenu:active{
+    background:  white;
+    color: #ffc300;
+}
+
+.clLateral{
+    /* position: fixed; */
+    float: right;
+    width: 350px;
+    
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-right: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linksClLateral{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.linksClLateral:link, a.linksClLateral:visited{
+    color: #c7c965;
+}
+
+.divConteudoCentral{
+    float: right;
+    /* border: 3px solid black; */
+    margin-top: 20px;
+    width: 700px;
+    background: #fffff3;
+    padding: 13px;
+
+}
+.titulosPostagens{
+    color: #fdbe45;
 }
