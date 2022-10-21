@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#divPrincipal{
+    
+}
+
+#spTec{
+
+    font-size: 30px;;
+    color: #5f501b;
+    margin: 0px; 
+    padding: 0px;
+
+}
+#spBlog{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.divBanner{
+    align-items: center;
+}
+
+.divHead{
+    width: 100%;
+    background: #ffc300;
+
+}
