@@ -9,6 +9,7 @@ body{
 }
 
 #divConteudo{
+    
     clear: both;
 }
 #spTec{
@@ -102,21 +103,56 @@ a.linksMenu:hover,a.linksMenu:active{
 .linksClLateral{
     text-decoration: none;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 a.linksClLateral:link, a.linksClLateral:visited{
     color: #c7c965;
 }
 
+.linkLeiaMais{
+    text-decoration: none;
+}
+a.linkLeiaMais:link, a.linkLeiaMais:visited{
+    color: #c7c965;
+}
+
+.linkCliqueAqui{
+    text-decoration: none;
+}
+a.linkCliqueAqui:link, a.linkCliqueAqui:visited{
+    color: #c7c965;
+}
+
 .divConteudoCentral{
     float: right;
     /* border: 3px solid black; */
-    margin-top: 20px;
+    margin-top: 0px;
     width: 700px;
-    background: #fffff3;
-    padding: 13px;
+    padding-top: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    /* border: 5px solid red;  */
 
 }
 .titulosPostagens{
     color: #fdbe45;
+}
+
+.divRodape{
+    
+    clear: both;
+    float: inline-end;
+    margin: 15px;
+    padding: 15px;
+    background: #fffff3;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+.divConteudoCentralPostagens{
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    background: #fffff3;
+    /* border: 2px solid green; */
 }
