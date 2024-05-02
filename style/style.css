@@ -142,9 +142,13 @@ a.linkCliqueAqui:link, a.linkCliqueAqui:visited{
 .divRodape{
     
     clear: both;
-    float: inline-end;
-    margin: 15px;
-    padding: 15px;
+    margin: 15px auto;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 4px;
     background: #fffff3;
     text-align: center;
     /* border: 2px solid green; */
